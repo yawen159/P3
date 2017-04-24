@@ -1,0 +1,210 @@
+body{
+	background-color: #E5E8E8;
+	font-family: Arial;
+}
+
+#navigation{
+	opacity: 0.8;
+}
+
+h1{
+	text-align: center;
+	padding-top: 10px;
+	color:#2C3E50;
+	font-size: 45px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #85929E;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+body{
+    font-family: Arial;
+}
+
+
+table{
+     border-collapse: collapse;
+     width: 100%;
+     padding-top: 10%;
+ }
+ th,td{
+     padding: 10px;
+     text-align: center;
+     border-bottom: 1px solid #ddd;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+}
+
+.pic{
+	width: 220px;
+	height: 320px;
+}
+
+.box{
+	padding:10px;
+	float:left;
+}
+
+.container{
+	width:220px;
+	border: 1px solid #ccc;
+	padding:10px;
+}
+
+.container:hover {
+    border: 1px solid #777;
+}
+
+.desc {
+    padding: 10px;
+    text-align: center;
+
+}
+.desc_img {
+    padding: 10px;
+    text-align: center;
+    word-break: break-all;
+    
+}
+.desc_album{
+    padding: 10px;
+    text-align: center;
+    word-break: break-all;
+}
+
+td{
+    word-break:break-all;
+}
+
+.full_img{
+
+}
+
+p{
+	font-size: 12px;
+}
+h2{
+	text-align: center;
+	padding: 10px;
+}
+
+
+input[type=text], input[type=password],select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.add {
+	width: 45%;
+	left:20%;
+	top:40%;
+	position: absolute;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+h3.message{
+    color:red;
+}
+h3.center{
+    text-align: center;
+}
+
+.login{
+    width: 50%;
+    left:23%;
+    top:20%;
+    position: absolute;
+    background-color: #f2f2f2;
+    padding: 3%;
+}
+.thumbnail{
+    width: 20%;
+}
+
+#show_image{
+    width: 80%;
+    left: 5%;
+    position: relative;
+}
+
+.caution{
+    text-align: center;
+    top:53%;
+    left: 37%;
+    position: absolute;
+}
+
+#search{
+    width: 70%;
+    left: 15%;
+    padding-top: 10%;
+    position: relative;
+}
+
+.delete{
+    text-align: right;
+}
+
+.log{
+    text-align: right;
+    right:5%;
+    top:2%;
+    position: absolute;
+
+}
+
+.all_img{
+    float:left;
+}
